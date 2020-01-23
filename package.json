@@ -24,6 +24,7 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
+    "sync": "node ./scripts/sync.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -54,7 +55,9 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0",
+    "fs-extra": "^8.1.0",
     "husky": "^3.0.9",
+    "klaw-sync": "^6.0.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.5.0",
