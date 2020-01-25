@@ -32,7 +32,7 @@ const Home = () => {
             description="消除恐惧的最好办法就是面对恐惧！坚持，才是胜利。加油！奥利给！"
           />
         </Col>
-        <Col span={4}>
+        <Col style={{ marginTop: -13 }} span={4}>
           <Statistic
             title="当前组件总数"
             value={routeCfg[1].routes?.length}

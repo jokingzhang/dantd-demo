@@ -20,8 +20,8 @@ const demo = () => {
       </Card>
       <br />
       <Card
-        antdProps={{ title: '有NS节点的卡片' }}
-        copyText="hnb-pre.one-stop-ui.one-stop.odin.op.didi.com"
+        antdProps={{ title: '有复制信息的卡片' }}
+        copyText="打开支付宝首页搜“681424595”领红包，领到大红包的小伙伴赶紧使用哦！"
       >
         <div style={{ width: 300, height: 300 }}>卡片详情</div>
       </Card>
