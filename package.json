@@ -20,9 +20,14 @@
     "react-scripts": "3.3.0",
     "typescript": "^3.7.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jokingzhang/dantd-demo"
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "publish": "react-app-rewired build && node ./scripts/publish.js",
     "test": "react-app-rewired test",
     "sync": "node ./scripts/sync.js",
     "eject": "react-scripts eject"
@@ -56,6 +61,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0",
     "fs-extra": "^8.1.0",
+    "gh-pages": "^2.2.0",
     "husky": "^3.0.9",
     "klaw-sync": "^6.0.0",
     "less": "^3.10.3",
