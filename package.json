@@ -62,6 +62,7 @@
     "eslint-plugin-react-hooks": "^2.2.0",
     "fs-extra": "^8.1.0",
     "gh-pages": "^2.2.0",
+    "history": "^4.10.1",
     "husky": "^3.0.9",
     "klaw-sync": "^6.0.0",
     "less": "^3.10.3",
