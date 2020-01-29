@@ -25,7 +25,7 @@
     "url": "https://github.com/jokingzhang/dantd-demo"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "PORT=3033 react-app-rewired start",
     "build": "react-app-rewired build",
     "publish": "react-app-rewired build && node ./scripts/publish.js",
     "test": "react-app-rewired test",
