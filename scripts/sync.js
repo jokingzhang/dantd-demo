@@ -8,11 +8,13 @@ if (!fs.existsSync(path.resolve(__dirname, '../../dantd'))) {
   return;
 }
 
+const fileReg = new RegExp(/(demo.tsx|.test.tsx)/g);
+
 const compPaths = klawSync(path.resolve(__dirname, '../src/components'), {
   nodir: true,
 })
   .map(item => item.path)
-  .filter(path => !/demo.tsx/g.test(path));
+  .filter(path => !fileReg.test(path));
 
 compPaths.forEach(pathItem => {
   const targetPath = pathItem.replace('/dantd-demo/src/components', '/dantd/src');
