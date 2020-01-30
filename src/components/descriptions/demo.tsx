@@ -1,6 +1,5 @@
 import React from 'react';
-import Card from '../card';
-import Descriptions from '../descriptions';
+import { Card, Descriptions } from 'dantd';
 import { Row, Col } from 'antd';
 import { data1, data2 } from './mock';
 

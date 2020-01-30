@@ -27,10 +27,7 @@
   "scripts": {
     "start": "PORT=3033 react-app-rewired start",
     "build": "react-app-rewired build",
-    "publish": "react-app-rewired build && node ./scripts/publish.js",
-    "test": "jest --no-cache",
-    "sync": "node ./scripts/sync.js",
-    "eject": "react-scripts eject"
+    "publish": "react-app-rewired build && node ./scripts/publish.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -85,7 +82,6 @@
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix src/**/*.{ts,tsx}",
-      "jest --bail --coverage --findRelatedTests",
       "git add ."
     ],
     "*.{md,css,html,less}": [

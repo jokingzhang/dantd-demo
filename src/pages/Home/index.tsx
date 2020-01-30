@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Avatar, Statistic, Icon, Row, Col } from 'antd';
-import { EmptyLine } from 'components';
+import { EmptyLine } from 'dantd';
 import { routeCfg } from '../../config';
 import './style.less';
 import img from './chong.png';

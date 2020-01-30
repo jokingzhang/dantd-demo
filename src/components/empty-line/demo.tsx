@@ -1,5 +1,5 @@
 import React from 'react';
-import EmptyLine from './EmptyLine';
+import { EmptyLine } from 'dantd';
 
 const demo = () => {
   return (
