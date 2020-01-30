@@ -1,5 +1,5 @@
 import React from 'react';
-import EmptyLine from 'components/empty-line';
+import EmptyLine from './EmptyLine';
 
 const demo = () => {
   return (

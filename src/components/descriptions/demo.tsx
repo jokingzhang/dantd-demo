@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from 'components/card';
-import Descriptions from 'components/descriptions';
+import Card from '../card';
+import Descriptions from '../descriptions';
 import { Row, Col } from 'antd';
 import { data1, data2 } from './mock';
 

@@ -8,7 +8,8 @@ if (!fs.existsSync(path.resolve(__dirname, '../../dantd'))) {
   return;
 }
 
-const fileReg = new RegExp(/(demo.tsx|.test.tsx)/g);
+// const fileReg = new RegExp('(.test.tsx|demo.tsx|mock.ts|mock.tsx)$');
+const fileReg = new RegExp('(.test.tsx|demo.tsx)$');
 
 const compPaths = klawSync(path.resolve(__dirname, '../src/components'), {
   nodir: true,
